@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Nodejs V^14.2.0
-NPM V^6.14.4
+* Nodejs ^14.2.0
+* NPM ^6.14.4
 
 ### Installing
 
@@ -24,11 +24,11 @@ With yarn: yarn add deezer-web-api
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Muurilo/deezer-web-api/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](https://github.com/Muurilo/deezer-web-api/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
