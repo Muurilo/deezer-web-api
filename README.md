@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Nodejs ^14.2.0
-* NPM ^6.14.4
+-   Nodejs ^14.2.0
+-   NPM ^6.14.4
 
 ### Installing
 
@@ -20,6 +20,19 @@ Add the package to your project
 ```
 With npm: npm i deezer-web-api
 With yarn: yarn add deezer-web-api
+```
+
+## Docs
+
+Documentation avaliable at [DOCS](https://github.com/Muurilo/deezer-web-api/blob/master/DOCS.md)
+
+## Generating Docs
+
+**To generate docs run:**
+
+```
+With npm: npm run docs
+With yarn: yarn docs
 ```
 
 ## Contributing
