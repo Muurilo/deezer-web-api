@@ -1,12 +1,14 @@
 # Deezer Web API
 
+![npm](https://img.shields.io/npm/v/deezer-web-api) ![NPM](https://img.shields.io/npm/l/deezer-web-api?registry_uri=https%3A%2F%2Fregistry.npmjs.org)
+
+### Prerequisites
+
 Unofficial Deezer API for Nodejs
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
 
 -   Nodejs ^14.2.0
 -   NPM ^6.14.4
