@@ -2,8 +2,6 @@
 
 ![npm](https://img.shields.io/npm/v/deezer-web-api) ![NPM](https://img.shields.io/npm/l/deezer-web-api?registry_uri=https%3A%2F%2Fregistry.npmjs.org)
 
-### Prerequisites
-
 Unofficial Deezer API for Nodejs
 
 ## Getting Started
