@@ -1,377 +1,100 @@
+## Classes
+
+<dl>
+<dt><a href="#Deezer">Deezer</a></dt>
+<dd><p>API Instance</p>
+</dd>
+</dl>
+
+## Functions
+
+<dl>
+<dt><a href="#getChart">getChart()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getChartTracks">getChartTracks()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getChartAlbums">getChartAlbums()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getChartArtists">getChartArtists()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getChartPlaylists">getChartPlaylists()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getChartPodcasts">getChartPodcasts()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getComment">getComment(comment_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getEditorials">getEditorials()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getEpisode">getEpisode()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getEpisodeBookmark">getEpisodeBookmark()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getGenres">getGenres()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getInfos">getInfos()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getOptions">getOptions()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#search">search(type, query)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getAlbum">getAlbum(album_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getAlbumComments">getAlbumComments(album_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getAlbumFans">getAlbumFans(album_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getAlbumTracks">getAlbumTracks(album_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPlaylist">getPlaylist(playlist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPlaylistComments">getPlaylistComments(playlist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPlaylistFans">getPlaylistFans(playlist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPlaylistTracks">getPlaylistTracks(playlist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPodcast">getPodcast(podcast_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getPodcastEpisodes">getPodcastEpisodes(podcast_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getRadios">getRadios()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getRadioGenres">getRadioGenres()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getTopRadios">getTopRadios()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getRadioLists">getRadioLists()</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getTrack">getTrack(track_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtist">getArtist(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistTopTracks">getArtistTopTracks(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistAlbums">getArtistAlbums(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistComments">getArtistComments(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistFans">getArtistFans(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getRelatedArtists">getRelatedArtists(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistRadio">getArtistRadio(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+<dt><a href="#getArtistPlaylists">getArtistPlaylists(artist_id)</a> ⇒ <code>promise</code></dt>
+<dd></dd>
+</dl>
+
 <a name="Deezer"></a>
 
 ## Deezer
 API Instance
 
 **Kind**: global class  
+<a name="getChart"></a>
 
-* [Deezer](#Deezer)
-    * [.getAlbum(album_id)](#Deezer+getAlbum) ⇒ <code>promise</code>
-    * [.getAlbumComments(album_id)](#Deezer+getAlbumComments) ⇒ <code>promise</code>
-    * [.getAlbumFans(album_id)](#Deezer+getAlbumFans) ⇒ <code>promise</code>
-    * [.getAlbumTracks(album_id)](#Deezer+getAlbumTracks) ⇒ <code>promise</code>
-    * [.getArtist(artist_id)](#Deezer+getArtist) ⇒ <code>promise</code>
-    * [.getArtistTopTracks(artist_id)](#Deezer+getArtistTopTracks) ⇒ <code>promise</code>
-    * [.getArtistAlbums(artist_id)](#Deezer+getArtistAlbums) ⇒ <code>promise</code>
-    * [.getArtistComments(artist_id)](#Deezer+getArtistComments) ⇒ <code>promise</code>
-    * [.getArtistFans(artist_id)](#Deezer+getArtistFans) ⇒ <code>promise</code>
-    * [.getRelatedArtists(artist_id)](#Deezer+getRelatedArtists) ⇒ <code>promise</code>
-    * [.getArtistRadio(artist_id)](#Deezer+getArtistRadio) ⇒ <code>promise</code>
-    * [.getArtistPlaylists(artist_id)](#Deezer+getArtistPlaylists) ⇒ <code>promise</code>
-    * [.getChart()](#Deezer+getChart) ⇒ <code>promise</code>
-    * [.getChartTracks()](#Deezer+getChartTracks) ⇒ <code>promise</code>
-    * [.getChartAlbums()](#Deezer+getChartAlbums) ⇒ <code>promise</code>
-    * [.getChartArtists()](#Deezer+getChartArtists) ⇒ <code>promise</code>
-    * [.getChartPlaylists()](#Deezer+getChartPlaylists) ⇒ <code>promise</code>
-    * [.getChartPodcasts()](#Deezer+getChartPodcasts) ⇒ <code>promise</code>
-    * [.getComment(comment_id)](#Deezer+getComment) ⇒ <code>promise</code>
-    * [.getEditorials()](#Deezer+getEditorials) ⇒ <code>promise</code>
-    * [.getEpisode()](#Deezer+getEpisode) ⇒ <code>promise</code>
-    * [.getEpisodeBookmark()](#Deezer+getEpisodeBookmark) ⇒ <code>promise</code>
-    * [.getGenres()](#Deezer+getGenres) ⇒ <code>promise</code>
-    * [.getInfos()](#Deezer+getInfos) ⇒ <code>promise</code>
-    * [.getOptions()](#Deezer+getOptions) ⇒ <code>promise</code>
-    * [.getPlaylist(playlist_id)](#Deezer+getPlaylist) ⇒ <code>promise</code>
-    * [.getPlaylistComments(playlist_id)](#Deezer+getPlaylistComments) ⇒ <code>promise</code>
-    * [.getPlaylistFans(playlist_id)](#Deezer+getPlaylistFans) ⇒ <code>promise</code>
-    * [.getPlaylistTracks(playlist_id)](#Deezer+getPlaylistTracks) ⇒ <code>promise</code>
-    * [.getPodcast(podcast_id)](#Deezer+getPodcast) ⇒ <code>promise</code>
-    * [.getPodcastEpisodes(podcast_id)](#Deezer+getPodcastEpisodes) ⇒ <code>promise</code>
-    * [.getRadios()](#Deezer+getRadios) ⇒ <code>promise</code>
-    * [.getRadioGenres()](#Deezer+getRadioGenres) ⇒ <code>promise</code>
-    * [.getTopRadios()](#Deezer+getTopRadios) ⇒ <code>promise</code>
-    * [.getRadioLists()](#Deezer+getRadioLists) ⇒ <code>promise</code>
-    * [.search(type, query)](#Deezer+search) ⇒ <code>promise</code>
-    * [.getTrack(track_id)](#Deezer+getTrack) ⇒ <code>promise</code>
-
-<a name="Deezer+getAlbum"></a>
-
-### deezer.getAlbum(album_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| album_id | <code>string</code> | ID of album to get info |
-
-**Example** *(Get information from an album)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getAlbum("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getAlbumComments"></a>
-
-### deezer.getAlbumComments(album_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| album_id | <code>string</code> | ID of album to get comments |
-
-**Example** *(Get album comments)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getAlbumComments("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getAlbumFans"></a>
-
-### deezer.getAlbumFans(album_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| album_id | <code>string</code> | ID of album to get fans |
-
-**Example** *(Get album fans)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getAlbumFans("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getAlbumTracks"></a>
-
-### deezer.getAlbumTracks(album_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| album_id | <code>string</code> | ID of album to get tracks |
-
-**Example** *(Get album tracks)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getAlbumTracks("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtist"></a>
-
-### deezer.getArtist(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get info |
-
-**Example** *(Get artist info)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtist("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistTopTracks"></a>
-
-### deezer.getArtistTopTracks(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get top tracks |
-
-**Example** *(Get artist top tracks)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistTopTracks("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistAlbums"></a>
-
-### deezer.getArtistAlbums(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get albums |
-
-**Example** *(Get artist albums)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistAlbums("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistComments"></a>
-
-### deezer.getArtistComments(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get comments |
-
-**Example** *(Get artist comments)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistComments("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistFans"></a>
-
-### deezer.getArtistFans(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get fans |
-
-**Example** *(Get artist fans)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistFans("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getRelatedArtists"></a>
-
-### deezer.getRelatedArtists(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get related artists |
-
-**Example** *(Get related artists)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getRelatedArtists("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistRadio"></a>
-
-### deezer.getArtistRadio(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get radio |
-
-**Example** *(Get artist radio)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistRadio("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getArtistPlaylists"></a>
-
-### deezer.getArtistPlaylists(artist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| artist_id | <code>string</code> | ID of artist to get playlists |
-
-**Example** *(Get artist playlists)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getArtistPlaylists("1423549")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getChart"></a>
-
-### deezer.getChart() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChart() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart)*  
 ```js
@@ -380,7 +103,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChart()
+   var res = await DeezerClient.infos.getChart()
        .then((res) => {
            console.log(res);
        })
@@ -390,10 +113,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getChartTracks"></a>
+<a name="getChartTracks"></a>
 
-### deezer.getChartTracks() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChartTracks() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart tracks)*  
 ```js
@@ -402,7 +125,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChartTracks()
+   var res = await DeezerClient.infos.getChartTracks()
        .then((res) => {
            console.log(res);
        })
@@ -412,10 +135,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getChartAlbums"></a>
+<a name="getChartAlbums"></a>
 
-### deezer.getChartAlbums() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChartAlbums() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart albums)*  
 ```js
@@ -424,7 +147,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChartAlbums()
+   var res = await DeezerClient.infos.getChartAlbums()
        .then((res) => {
            console.log(res);
        })
@@ -434,10 +157,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getChartArtists"></a>
+<a name="getChartArtists"></a>
 
-### deezer.getChartArtists() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChartArtists() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart artists)*  
 ```js
@@ -446,7 +169,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChartArtists()
+   var res = await DeezerClient.infos.getChartArtists()
        .then((res) => {
            console.log(res);
        })
@@ -456,10 +179,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getChartPlaylists"></a>
+<a name="getChartPlaylists"></a>
 
-### deezer.getChartPlaylists() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChartPlaylists() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart playlists)*  
 ```js
@@ -468,7 +191,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChartPlaylists()
+   var res = await DeezerClient.infos.getChartPlaylists()
        .then((res) => {
            console.log(res);
        })
@@ -478,10 +201,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getChartPodcasts"></a>
+<a name="getChartPodcasts"></a>
 
-### deezer.getChartPodcasts() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getChartPodcasts() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get chart podcasts)*  
 ```js
@@ -490,7 +213,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getChartPodcasts()
+   var res = await DeezerClient.infos.getChartPodcasts()
        .then((res) => {
            console.log(res);
        })
@@ -500,10 +223,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getComment"></a>
+<a name="getComment"></a>
 
-### deezer.getComment(comment_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getComment(comment_id) ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 
 | Param | Type | Description |
@@ -517,7 +240,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getComment("123123")
+   var res = await DeezerClient.infos.getComment("123123")
        .then((res) => {
            console.log(res);
        })
@@ -527,10 +250,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getEditorials"></a>
+<a name="getEditorials"></a>
 
-### deezer.getEditorials() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getEditorials() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get editorials)*  
 ```js
@@ -539,7 +262,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getEditorials()
+   var res = await DeezerClient.infos.getEditorials()
        .then((res) => {
            console.log(res);
        })
@@ -549,10 +272,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getEpisode"></a>
+<a name="getEpisode"></a>
 
-### deezer.getEpisode() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getEpisode() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get episode)*  
 ```js
@@ -561,7 +284,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getEpisode()
+   var res = await DeezerClient.infos.getEpisode()
        .then((res) => {
            console.log(res);
        })
@@ -571,10 +294,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getEpisodeBookmark"></a>
+<a name="getEpisodeBookmark"></a>
 
-### deezer.getEpisodeBookmark() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getEpisodeBookmark() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get episode bookmark)*  
 ```js
@@ -583,7 +306,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getEpisodeBookmark()
+   var res = await DeezerClient.infos.getEpisodeBookmark()
        .then((res) => {
            console.log(res);
        })
@@ -593,10 +316,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getGenres"></a>
+<a name="getGenres"></a>
 
-### deezer.getGenres() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getGenres() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get genres)*  
 ```js
@@ -605,7 +328,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getGenres()
+   var res = await DeezerClient.infos.getGenres()
        .then((res) => {
            console.log(res);
        })
@@ -615,10 +338,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getInfos"></a>
+<a name="getInfos"></a>
 
-### deezer.getInfos() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getInfos() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get infos)*  
 ```js
@@ -627,7 +350,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getInfos()
+   var res = await DeezerClient.infos.getInfos()
        .then((res) => {
            console.log(res);
        })
@@ -637,10 +360,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getOptions"></a>
+<a name="getOptions"></a>
 
-### deezer.getOptions() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getOptions() ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 **Example** *(Get options)*  
 ```js
@@ -649,7 +372,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getOptions()
+   var res = await DeezerClient.infos.getOptions()
        .then((res) => {
            console.log(res);
        })
@@ -659,260 +382,10 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getPlaylist"></a>
+<a name="search"></a>
 
-### deezer.getPlaylist(playlist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| playlist_id | <code>string</code> | ID of playlist to get info |
-
-**Example** *(Get playlist)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPlaylist("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getPlaylistComments"></a>
-
-### deezer.getPlaylistComments(playlist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| playlist_id | <code>string</code> | ID of playlist to get comments |
-
-**Example** *(Get playlist comments)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPlaylistComments("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getPlaylistFans"></a>
-
-### deezer.getPlaylistFans(playlist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| playlist_id | <code>string</code> | ID of playlist to get fans |
-
-**Example** *(Get playlist fans)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPlaylistFans("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getPlaylistTracks"></a>
-
-### deezer.getPlaylistTracks(playlist_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| playlist_id | <code>string</code> | ID of playlist to get tracks |
-
-**Example** *(Get playlist tracks)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPlaylistTracks("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getPodcast"></a>
-
-### deezer.getPodcast(podcast_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| podcast_id | <code>string</code> | ID of podcast to get info |
-
-**Example** *(Get podcast)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPodcast("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getPodcastEpisodes"></a>
-
-### deezer.getPodcastEpisodes(podcast_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| podcast_id | <code>string</code> | ID of podcast to get episodes |
-
-**Example** *(Get podcast episodes)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getPodcastEpisodes("4721934964")
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getRadios"></a>
-
-### deezer.getRadios() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-**Example** *(Get radios)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getRadios()
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getRadioGenres"></a>
-
-### deezer.getRadioGenres() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-**Example** *(Get radio genres)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getRadiosGenres()
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getTopRadios"></a>
-
-### deezer.getTopRadios() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-**Example** *(Get top radios)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getTopRadios()
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+getRadioLists"></a>
-
-### deezer.getRadioLists() ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
-**Returns**: <code>promise</code> - Returns a promise with the request  
-**Example** *(Get radio lists)*  
-```js
-var Deezer = require("deezer-web-api");
-
-var DeezerClient = new Deezer();
-
-async function example() {
-   var res = await DeezerClient.getRadiosLists()
-       .then((res) => {
-           console.log(res);
-       })
-       .catch((err) => {
-           console.log(err);
-       });
-}
-example();
-```
-<a name="Deezer+search"></a>
-
-### deezer.search(type, query) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## search(type, query) ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 
 | Param | Type | Description |
@@ -927,7 +400,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.search("album", "Blurryface")
+   var res = await DeezerClient.infos.search("album", "Blurryface")
        .then((res) => {
            console.log(res);
        })
@@ -944,7 +417,7 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.search("Blurryface")
+   var res = await DeezerClient.infos.search("Blurryface")
        .then((res) => {
            console.log(res);
        })
@@ -954,10 +427,368 @@ async function example() {
 }
 example();
 ```
-<a name="Deezer+getTrack"></a>
+<a name="getAlbum"></a>
 
-### deezer.getTrack(track_id) ⇒ <code>promise</code>
-**Kind**: instance method of [<code>Deezer</code>](#Deezer)  
+## getAlbum(album_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| album_id | <code>string</code> | ID of album to get info |
+
+**Example** *(Get information from an album)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getAlbum("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getAlbumComments"></a>
+
+## getAlbumComments(album_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| album_id | <code>string</code> | ID of album to get comments |
+
+**Example** *(Get album comments)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getAlbumComments("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getAlbumFans"></a>
+
+## getAlbumFans(album_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| album_id | <code>string</code> | ID of album to get fans |
+
+**Example** *(Get album fans)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getAlbumFans("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getAlbumTracks"></a>
+
+## getAlbumTracks(album_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| album_id | <code>string</code> | ID of album to get tracks |
+
+**Example** *(Get album tracks)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getAlbumTracks("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPlaylist"></a>
+
+## getPlaylist(playlist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| playlist_id | <code>string</code> | ID of playlist to get info |
+
+**Example** *(Get playlist)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPlaylist("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPlaylistComments"></a>
+
+## getPlaylistComments(playlist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| playlist_id | <code>string</code> | ID of playlist to get comments |
+
+**Example** *(Get playlist comments)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPlaylistComments("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPlaylistFans"></a>
+
+## getPlaylistFans(playlist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| playlist_id | <code>string</code> | ID of playlist to get fans |
+
+**Example** *(Get playlist fans)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPlaylistFans("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPlaylistTracks"></a>
+
+## getPlaylistTracks(playlist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| playlist_id | <code>string</code> | ID of playlist to get tracks |
+
+**Example** *(Get playlist tracks)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPlaylistTracks("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPodcast"></a>
+
+## getPodcast(podcast_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| podcast_id | <code>string</code> | ID of podcast to get info |
+
+**Example** *(Get podcast)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPodcast("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getPodcastEpisodes"></a>
+
+## getPodcastEpisodes(podcast_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| podcast_id | <code>string</code> | ID of podcast to get episodes |
+
+**Example** *(Get podcast episodes)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getPodcastEpisodes("4721934964")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getRadios"></a>
+
+## getRadios() ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+**Example** *(Get radios)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getRadios()
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getRadioGenres"></a>
+
+## getRadioGenres() ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+**Example** *(Get radio genres)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getRadiosGenres()
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getTopRadios"></a>
+
+## getTopRadios() ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+**Example** *(Get top radios)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getTopRadios()
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getRadioLists"></a>
+
+## getRadioLists() ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+**Example** *(Get radio lists)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.musics.getRadiosLists()
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getTrack"></a>
+
+## getTrack(track_id) ⇒ <code>promise</code>
+**Kind**: global function  
 **Returns**: <code>promise</code> - Returns a promise with the request  
 
 | Param | Type | Description |
@@ -971,7 +802,223 @@ var Deezer = require("deezer-web-api");
 var DeezerClient = new Deezer();
 
 async function example() {
-   var res = await DeezerClient.getTrack("74606742")
+   var res = await DeezerClient.musics.getTrack("74606742")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtist"></a>
+
+## getArtist(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get info |
+
+**Example** *(Get artist info)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtist("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistTopTracks"></a>
+
+## getArtistTopTracks(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get top tracks |
+
+**Example** *(Get artist top tracks)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistTopTracks("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistAlbums"></a>
+
+## getArtistAlbums(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get albums |
+
+**Example** *(Get artist albums)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistAlbums("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistComments"></a>
+
+## getArtistComments(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get comments |
+
+**Example** *(Get artist comments)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistComments("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistFans"></a>
+
+## getArtistFans(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get fans |
+
+**Example** *(Get artist fans)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistFans("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getRelatedArtists"></a>
+
+## getRelatedArtists(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get related artists |
+
+**Example** *(Get related artists)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getRelatedArtists("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistRadio"></a>
+
+## getArtistRadio(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get radio |
+
+**Example** *(Get artist radio)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistRadio("1423549")
+       .then((res) => {
+           console.log(res);
+       })
+       .catch((err) => {
+           console.log(err);
+       });
+}
+example();
+```
+<a name="getArtistPlaylists"></a>
+
+## getArtistPlaylists(artist_id) ⇒ <code>promise</code>
+**Kind**: global function  
+**Returns**: <code>promise</code> - Returns a promise with the request  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| artist_id | <code>string</code> | ID of artist to get playlists |
+
+**Example** *(Get artist playlists)*  
+```js
+var Deezer = require("deezer-web-api");
+
+var DeezerClient = new Deezer();
+
+async function example() {
+   var res = await DeezerClient.users.getArtistPlaylists("1423549")
        .then((res) => {
            console.log(res);
        })

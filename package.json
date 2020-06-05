@@ -25,7 +25,7 @@
     "private": false,
     "license": "MIT",
     "scripts": {
-        "docs": "jsdoc2md src/*.js > api.md",
+        "docs": "jsdoc2md src/*.js > DOCS.md",
         "test": "jest"
     },
     "dependencies": {
