@@ -1,6 +1,6 @@
 {
     "name": "deezer-web-api",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "description": "Deezer Api for Node",
     "homepage": "https://github.com/Muurilo/deezer-web-api/blob/master/README.md",
     "main": "src/index.js",
